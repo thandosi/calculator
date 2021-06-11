@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+background-color:black;
+min-height: 100vh;
+}
+
+.grid{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows:minmax(120px, auto) repeat(4, 100px) ;
+
+}
+
+button{
+    font-size: 20px;
+    outline: none;
+    background-color: grey;
+
+}
+.output{
+    grid-column: 1/-1;
+    background-color: white;
+}
+
+.two{
+    grid-column: span 2;
+    
+}
