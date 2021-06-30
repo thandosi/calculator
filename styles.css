@@ -1,32 +1,25 @@
-body{
-    margin: 0;
-    padding: 0;
-background-color:black;
-min-height: 100vh;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url(./OWoCkA.jpg);
 }
 
-.grid{
-    display: grid;
-    justify-content: center;
-    align-content: center;
-    min-height: 100vh;
-    grid-template-columns: repeat(4, 100px);
-    grid-template-rows:minmax(120px, auto) repeat(4, 100px) ;
+button {
+ margin-bottom: 20px;
+ border-radius: 10px;
+ color: royalblue;
+ font-family: sans-serif;
+
 
 }
-
-button{
-    font-size: 20px;
-    outline: none;
-    background-color: grey;
+img{
+  width: 200px;
+  height: 200px;
+  float: right;
 
 }
-.output{
-    grid-column: 1/-1;
-    background-color: white;
-}
-
-.two{
-    grid-column: span 2;
-    
+h1{
+  text-align: center;
+  color: royalblue;
 }
