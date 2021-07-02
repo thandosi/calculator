@@ -2,24 +2,60 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-image: url(./OWoCkA.jpg);
+
+}
+
+body{
+  background-image: url(./back.jpeg);
 }
 
 button {
- margin-bottom: 20px;
- border-radius: 10px;
+ margin-bottom: 10px;
+ border-radius: 100%;
  color: royalblue;
  font-family: sans-serif;
+ height: 60px;
+ padding: 1px;
+ width: 100px;
+}
 
+.poke-details{
+  background-color: seashell;
+  color: royalblue;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+}
+
+
+
+.flex{
+  display: flex;
+  padding: 170px;
 
 }
+
+.pokemon-info{
+  width: 40%;
+  background-color: royalblue;
+}
+
+.pokemon-list-container{
+  width: 40%;
+  height:50vh;
+  background-color: royalblue;
+  
+}
+
+
 img{
-  width: 200px;
-  height: 200px;
-  float: right;
+  height: 300px;
+  float: left;
+
 
 }
 h1{
   text-align: center;
-  color: royalblue;
+  color: white;
 }
