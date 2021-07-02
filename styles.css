@@ -18,6 +18,9 @@ button {
  padding: 1px;
  width: 100px;
 }
+button:hover{
+  color: white;
+}
 
 .poke-details{
   background-color: seashell;
@@ -26,6 +29,9 @@ button {
   display: flex;
   flex-direction: column;
   padding: 50px;
+  font-size: 20px;
+  line-height: 50px;
+  
 }
 
 
@@ -52,6 +58,7 @@ button {
 img{
   height: 300px;
   float: left;
+  padding: 40px;
 
 
 }

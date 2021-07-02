@@ -41,14 +41,16 @@ function getPokemonInfo(url) {
       document.querySelector(".poke-details").innerHTML = ``;
       // Write data to pokemon information container
       document.querySelector(".pokemon-info").innerHTML = `
-    <img src="${data.sprites.front_default} ">
+    <img src="${data.sprites.other.dream_world.front_default} ">
     `;
-    
-    document.querySelector(".poke-details").innerHTML += `<br><span> ${"Weight:" + data.weight + "kg" + ""} </span>`;
-    document.querySelector(".poke-details").innerHTML += `<br><span> ${"Height:" + data.height + "Meters" + ""} </span>`;
+
+    document.querySelector(".poke-details").innerHTML += `<br><span > ${"Name: " + data.name + ""} </span>`; 
+    document.querySelector(".poke-details").innerHTML += `<br><span > ${"Weight: " + data.weight + "kg" + ""} </span>`;
+    document.querySelector(".poke-details").innerHTML += `<br><span> ${"Height: " + data.height + "Meters" + ""} </span>`;
     document.querySelector(".poke-details").innerHTML += `<br><span> ${
       "Type: " + data.types[0].type.name
     } </span>`;
+    
     
     });
     
